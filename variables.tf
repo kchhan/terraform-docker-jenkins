@@ -13,5 +13,5 @@ variable "instance_type" {
 variable "key_pair_name" {
   description = "The key pair to ssh the server with"
   type        = string
-  default     = "ec2-controller-private-key"
+  default     = "ec2-controller-key"
 }
