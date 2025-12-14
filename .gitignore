@@ -27,6 +27,9 @@ override.tf.json
 # Plan files
 *.tfplan
 
+# Private keys
+*pem
+
 # OS / editor junk
 .DS_Store
 .idea/

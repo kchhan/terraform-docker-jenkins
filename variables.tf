@@ -9,3 +9,9 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
+
+variable "key_pair_name" {
+  description = "The key pair to ssh the server with"
+  type        = string
+  default     = "ec2-controller-private-key"
+}
