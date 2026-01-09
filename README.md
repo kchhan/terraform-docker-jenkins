@@ -8,3 +8,4 @@ The purpose is to create an easily creatable and easily destroyable environment 
 - Take note of the output `public_ip`.
 - A SSH private key "ec2-controller-private-key.pem" file should be created in the repository.
 - Now you can SSH to the created instance with `ssh -i ec2-controller-private-key.pem ubuntu@<YOUR_PUBLIC_IP>`.
+- When finished, use `terraform destory --auto-approve` to remove all components from AWS.
